@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLEAZE | Underground Party Booking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scan Line Effect -->
+    <div class="scan-line"></div>
+
+    <!-- Graffiti Elements -->
+    <div class="graffiti graffiti-1">SLEAZE</div>
+    <div class="graffiti graffiti-2">PARTY</div>
+
+    <!-- Header -->
+    <header id="header">
+        <nav class="navbar">
+            <a href="#" class="logo">SLEAZE</a>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#booking" class="cta-button">Book Now</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to <span class="neon-pink">SLEAZE</span><br>Underground <span class="neon-cyan">Party</span> Experience</h1>
+            <p>Book the most exclusive underground parties in the city. From gritty warehouses to secret rooftops, we bring you authentic nightlife experiences.</p>
+            <div class="hero-buttons">
+                <a href="#booking" class="cta-button">Book a Party</a>
+                <a href="#testimonials" class="secondary-button">View Reviews</a>
+            </div>
+        </div>
+        <div class="hero-image"></div>
+
+      
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+    <div class="section-title">
+        <h2>Our Services</h2>
+        <p>We specialize in underground party experiences that you won't find anywhere else</p>
+    </div>
+
+    <div class="services-grid">
+        <div class="service-card fade-in">
+            <div class="service-icon-circle">
+                <i class="fas fa-warehouse service-icon"></i>
+            </div>
+            <h3>Warehouse Parties</h3>
+            <p>Raw, industrial spaces transformed into pulsating dance floors with top-tier sound systems.</p>
+        </div>
+
+        <div class="service-card fade-in">
+            <div class="service-icon-circle">
+                <i class="fas fa-city service-icon"></i>
+            </div>
+            <h3>Rooftop Events</h3>
+            <p>Exclusive skyline views with sophisticated sounds and VIP treatment.</p>
+        </div>
+
+        <div class="service-card fade-in">
+            <div class="service-icon-circle">
+                <i class="fas fa-theater-masks service-icon"></i>
+            </div>
+            <h3>Themed Nights</h3>
+            <p>From fetish to fantasy, our themed parties push boundaries and ignite imaginations.</p>
+        </div>
+
+        <div class="service-card fade-in">
+            <div class="service-icon-circle">
+                <i class="fas fa-user-secret service-icon"></i>
+            </div>
+            <h3>Secret Locations</h3>
+            <p>Location revealed only to ticket holders for the ultimate exclusive experience.</p>
+        </div>
+
+        <div class="service-card fade-in">
+            <div class="service-icon-circle">
+                <i class="fas fa-cocktail service-icon"></i>
+            </div>
+            <h3>Signature Bars</h3>
+            <p>Custom cocktail menus designed by award-winning mixologists.</p>
+        </div>
+
+        <div class="service-card fade-in">
+            <div class="service-icon-circle">
+                <i class="fas fa-shield-alt service-icon"></i>
+            </div>
+            <h3>Discreet Security</h3>
+            <p>Professional, low-profile security to ensure your safety without killing the vibe.</p>
+        </div>
+         
+    </div>
+    <button class="button">Book Now</button>
+</section>
+ <!-- finsh -->
+ <!-- Graffiti Elements -->
+    <div class="graffiti graffiti-1">SLEAZE</div>
+    <div class="graffiti graffiti-2">GALLERY</div>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="section-title">
+            <h2>Underground Gallery</h2>
+            <p>Immerse yourself in the raw energy of our exclusive parties and events</p>
+        </div>
+
+        <!-- Gallery Filter -->
+        <div class="gallery-filter">
+            <button class="filter-btn active" data-filter="all">All Events</button>
+            <button class="filter-btn" data-filter="warehouse">Warehouse</button>
+            <button class="filter-btn" data-filter="rooftop">Rooftop</button>
+            <button class="filter-btn" data-filter="themed">Themed Nights</button>
+            <button class="filter-btn" data-filter="secret">Secret Locations</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid">
+            <!-- Item 1 -->
+            <div class="gallery-item" data-category="warehouse">
+                <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1860&q=80" alt="Warehouse Party" class="gallery-image">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Neon Warehouse</h3>
+                    <span class="gallery-category">Warehouse</span>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="gallery-item" data-category="rooftop">
+                <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Rooftop Event" class="gallery-image">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Skyline Sessions</h3>
+                    <span class="gallery-category">Rooftop</span>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="gallery-item" data-category="themed">
+                <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Themed Night" class="gallery-image">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Cyberpunk Night</h3>
+                    <span class="gallery-category">Themed Nights</span>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="gallery-item" data-category="secret">
+                <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Secret Location" class="gallery-image">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Abandoned Theater</h3>
+                    <span class="gallery-category">Secret Locations</span>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="gallery-item" data-category="warehouse">
+                <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="DJ Performance" class="gallery-image">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Bass Underground</h3>
+                    <span class="gallery-category">Warehouse</span>
+                </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="gallery-item" data-category="rooftop">
+                <img src="https://images.unsplash.com/photo-1571115764595-644a1f56a55c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1840&q=80" alt="Rooftop Bar" class="gallery-image">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Penthouse Vibes</h3>
+                    <span class="gallery-category">Rooftop</span>
+                </div>
+            </div>
+
+            <!-- Item 7 -->
+            <div class="gallery-item" data-category="themed">
+                <img src="https://images.unsplash.com/photo-1501281667305-0d4e0ab141fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Costume Party" class="gallery-image">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Masquerade Ball</h3>
+                    <span class="gallery-category">Themed Nights</span>
+                </div>
+            </div>
+
+            <!-- Item 8 -->
+            <div class="gallery-item" data-category="secret">
+                <img src="https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Hidden Venue" class="gallery-image">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Underground Bunker</h3>
+                    <span class="gallery-category">Secret Locations</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lightbox Modal -->
+        <div class="lightbox" id="lightbox">
+            <div class="lightbox-content">
+                <span class="close-lightbox" id="closeLightbox">&times;</span>
+                <img src="" alt="" class="lightbox-image" id="lightboxImage">
+                <div class="lightbox-caption">
+                    <h3 id="lightboxTitle"></h3>
+                    <span class="gallery-category" id="lightboxCategory"></span>
+                </div>
+                <div class="lightbox-nav">
+                    <button class="lightbox-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="lightbox-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+         <button class="button">Book Now</button>
+    </section>
+
+    <!-- Testimonials Section -->
+  <section class="my-testimonials-section" id="myTestimonials">
+    <div class="my-section-title">
+        <h2>Underground Reviews</h2>
+        <p>Hear from those who've experienced our exclusive parties</p>
+    </div>
+    
+    <div class="my-testimonials-container">
+        <div class="my-testimonials-carousel" id="myCarousel">
+            <!-- Testimonial 1 -->
+            <div class="my-testimonial-card">
+                <div class="my-testimonial-inner">
+                    <div class="my-testimonial-image">
+                        <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=1860&q=80" alt="Warehouse Party">
+                    </div>
+                    <div class="my-testimonial-content">
+                        <p class="my-testimonial-text">SLEAZE delivered the most authentic underground experience I've had in years.</p>
+                        <span class="my-party-type">Warehouse Party</span>
+                        <div class="my-testimonial-author">
+                            <div class="my-author-avatar">
+                                <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?auto=format&fit=crop&w=1887&q=80" alt="Jax Doe">
+                            </div>
+                            <div class="my-author-info">
+                                <h4>Jax Doe</h4>
+                                <p>Nightlife Blogger</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="my-testimonial-card">
+                <div class="my-testimonial-inner">
+                    <div class="my-testimonial-image">
+                        <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1740&q=80" alt="Rooftop Party">
+                    </div>
+                    <div class="my-testimonial-content">
+                        <p class="my-testimonial-text">The secret rooftop event by SLEAZE topped all parties I've attended.</p>
+                        <span class="my-party-type">Rooftop Event</span>
+                        <div class="my-testimonial-author">
+                            <div class="my-author-avatar">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1887&q=80" alt="Vex Ryder">
+                            </div>
+                            <div class="my-author-info">
+                                <h4>Vex Ryder</h4>
+                                <p>Music Producer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="my-testimonial-card">
+                <div class="my-testimonial-inner">
+                    <div class="my-testimonial-image">
+                        <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1740&q=80" alt="Themed Party">
+                    </div>
+                    <div class="my-testimonial-content">
+                        <p class="my-testimonial-text">The fetish-themed night pushed boundaries safely and thrillingly.</p>
+                        <span class="my-party-type">Themed Night</span>
+                        <div class="my-testimonial-author">
+                            <div class="my-author-avatar">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=1770&q=80" alt="Luna Quill">
+                            </div>
+                            <div class="my-author-info">
+                                <h4>Luna Quill</h4>
+                                <p>Performance Artist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <!-- Testimonial 4 -->
+              <div class="my-testimonial-card">
+                <div class="my-testimonial-inner">
+                    <div class="my-testimonial-image">
+                        <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1740&q=80" alt="Themed Party">
+                    </div>
+                    <div class="my-testimonial-content">
+                        <p class="my-testimonial-text">The fetish-themed night pushed boundaries safely and thrillingly.</p>
+                        <span class="my-party-type">Themed Night</span>
+                        <div class="my-testimonial-author">
+                            <div class="my-author-avatar">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=1770&q=80" alt="Luna Quill">
+                            </div>
+                            <div class="my-author-info">
+                                <h4>Luna Quill</h4>
+                                <p>Performance Artist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more testimonials as needed -->
+        </div>
+
+        <div class="my-carousel-controls">
+            <button class="my-carousel-btn" id="myPrevBtn"><i class="fas fa-chevron-left"></i></button>
+            <div class="my-carousel-dots" id="myDots"></div>
+            <button class="my-carousel-btn" id="myNextBtn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+     <button class="button">Book Now</button>
+</section>
+
+    <!-- Booking Section -->
+    <section id="booking">
+        <div class="section-title">
+            <h2>Book Your Party</h2>
+            <p>Fill out the form below to request a booking for your next underground event</p>
+        </div>
+        <div class="booking-section">
+            <form class="booking-form" id="bookingForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" class="form-control" placeholder="Enter your phone number" required>
+                </div>
+                <div class="form-group">
+                    <label for="event-type">Event Type</label>
+                    <select id="event-type" class="form-control" required>
+                        <option value="" disabled selected>Select event type</option>
+                        <option value="warehouse">Warehouse Party</option>
+                        <option value="rooftop">Rooftop Event</option>
+                        <option value="themed">Themed Night</option>
+                        <option value="secret">Secret Location</option>
+                        <option value="private">Private Event</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <input type="number" id="guests" class="form-control" placeholder="Approximate number of guests" min="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Event Date</label>
+                    <input type="date" id="date" class="form-control" required>
+                </div>
+                <div class="form-group form-full">
+                    <label for="message">Special Requests</label>
+                    <textarea id="message" class="form-control" rows="4" placeholder="Tell us about your vision for the event..."></textarea>
+                </div>
+                <button type="submit" class="cta-button submit-btn">Submit Booking Request</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>SLEAZE</h3>
+                <p>Underground party booking for those who seek authentic nightlife experiences beyond the mainstream.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-soundcloud"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-spotify"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#booking">Booking</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Party Types</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Warehouse Parties</a></li>
+                    <li><a href="#">Rooftop Events</a></li>
+                    <li><a href="#">Themed Nights</a></li>
+                    <li><a href="#">Secret Locations</a></li>
+                    <li><a href="#">Private Events</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-map-marker-alt"></i> Secret Location, Underground City</li>
+                    <li><i class="fas fa-envelope"></i> contact@sleazeparties.com</li>
+                    <li><i class="fas fa-paper-plane"></i> Telegram: @sleazeparties</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 SLEAZE Underground Party Booking. For those who know.</p>
+        </div>
+    </footer>
+
+    <!-- Booking Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h2>Booking Request Submitted!</h2>
+            <p>Your underground party request has been received. We'll contact you within 24 hours with further details. Keep it secret.</p>
+            <button class="cta-button" id="modalButton">Close</button>
+        </div>
+    </div>
+
+   <script>
+document.addEventListener("DOMContentLoaded", function () {
+    /* ===== Header Scroll Effect ===== */
+    const header = document.querySelector("header");
+    window.addEventListener("scroll", () => {
+        header.classList.toggle("scrolled", window.scrollY > 50);
+    });
+
+    /* ===== Mobile Menu Toggle ===== */
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+    menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+    });
+
+    /* ===== Fade In Animation ===== */
+    const fadeElements = document.querySelectorAll(".fade-in");
+    function checkFadeIn() {
+        fadeElements.forEach(el => {
+            const rect = el.getBoundingClientRect();
+            if (rect.top < window.innerHeight - 100) {
+                el.classList.add("appear");
+            }
+        });
+    }
+    window.addEventListener("scroll", checkFadeIn);
+    checkFadeIn();
+
+    /* ===== Booking Modal ===== */
+    const modal = document.querySelector(".modal");
+    const closeModalBtn = document.querySelector(".close-modal");
+    const bookingForm = document.querySelector(".booking-form");
+
+    if (bookingForm) {
+        bookingForm.addEventListener("submit", e => {
+            e.preventDefault();
+            modal.style.display = "flex";
+        });
+    }
+    if (closeModalBtn) {
+        closeModalBtn.addEventListener("click", () => {
+            modal.style.display = "none";
+        });
+    }
+    window.addEventListener("click", e => {
+        if (e.target === modal) modal.style.display = "none";
+    });
+
+    /* ===== Gallery Filter ===== */
+    const filterBtns = document.querySelectorAll(".filter-btn");
+    const galleryItems = document.querySelectorAll(".gallery-item");
+
+    filterBtns.forEach(btn => {
+        btn.addEventListener("click", () => {
+            filterBtns.forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+
+            const filter = btn.getAttribute("data-filter");
+            galleryItems.forEach(item => {
+                if (filter === "all" || item.getAttribute("data-category") === filter) {
+                    item.style.display = "block";
+                } else {
+                    item.style.display = "none";
+                }
+            });
+        });
+    });
+
+    /* ===== Gallery Lightbox ===== */
+    const lightbox = document.querySelector(".lightbox");
+    const lightboxImg = document.querySelector(".lightbox-image");
+    const lightboxTitle = document.querySelector(".lightbox-caption h3");
+    const lightboxCategory = document.querySelector(".lightbox-caption p");
+    const closeLightbox = document.querySelector(".close-lightbox");
+    const prevBtn = document.querySelector(".lightbox-btn.prev");
+    const nextBtn = document.querySelector(".lightbox-btn.next");
+    let currentIndex = 0;
+
+    function showLightbox(index) {
+        const item = galleryItems[index];
+        const img = item.querySelector("img");
+        const title = item.querySelector(".gallery-title").textContent;
+        const category = item.querySelector(".gallery-category").textContent;
+
+        lightboxImg.src = img.src;
+        lightboxTitle.textContent = title;
+        lightboxCategory.textContent = category;
+        lightbox.style.display = "flex";
+        currentIndex = index;
+    }
+
+    galleryItems.forEach((item, index) => {
+        item.addEventListener("click", () => showLightbox(index));
+    });
+
+    if (closeLightbox) {
+        closeLightbox.addEventListener("click", () => {
+            lightbox.style.display = "none";
+        });
+    }
+
+    if (prevBtn && nextBtn) {
+        prevBtn.addEventListener("click", () => {
+            currentIndex = (currentIndex - 1 + galleryItems.length) % galleryItems.length;
+            showLightbox(currentIndex);
+        });
+
+        nextBtn.addEventListener("click", () => {
+            currentIndex = (currentIndex + 1) % galleryItems.length;
+            showLightbox(currentIndex);
+        });
+    }
+
+    /* ===== Testimonials Carousel ===== */
+    const carousel = document.querySelector(".my-testimonials-carousel");
+    const cards = document.querySelectorAll(".my-testimonial-card");
+    const prevTestimonialBtn = document.getElementById("myPrevBtn");
+    const nextTestimonialBtn = document.getElementById("myNextBtn");
+    const dotsContainer = document.getElementById("myDots");
+
+    let testimonialIndex = 0;
+    const cardCount = cards.length;
+
+    // Generate dots dynamically
+    if (dotsContainer) {
+        for (let i = 0; i < cardCount; i++) {
+            const dot = document.createElement("div");
+            dot.classList.add("dot");
+            if (i === 0) dot.classList.add("active");
+            dot.addEventListener("click", () => goToTestimonial(i));
+            dotsContainer.appendChild(dot);
+        }
+    }
+    const dots = dotsContainer ? dotsContainer.querySelectorAll(".dot") : [];
+
+    function updateCarousel() {
+        const cardWidth = cards[0].offsetWidth;
+        carousel.style.transform = `translateX(-${testimonialIndex * cardWidth}px)`;
+
+        dots.forEach((dot, i) => {
+            dot.classList.toggle("active", i === testimonialIndex);
+        });
+    }
+
+    function goToTestimonial(index) {
+        testimonialIndex = index;
+        updateCarousel();
+    }
+
+    if (prevTestimonialBtn) {
+        prevTestimonialBtn.addEventListener("click", () => {
+            testimonialIndex = (testimonialIndex - 1 + cardCount) % cardCount;
+            updateCarousel();
+        });
+    }
+
+    if (nextTestimonialBtn) {
+        nextTestimonialBtn.addEventListener("click", () => {
+            testimonialIndex = (testimonialIndex + 1) % cardCount;
+            updateCarousel();
+        });
+    }
+
+    window.addEventListener("resize", updateCarousel);
+    updateCarousel();
+});
+</script>
+
+</body>
+</html>
